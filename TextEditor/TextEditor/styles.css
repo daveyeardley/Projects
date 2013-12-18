@@ -1,0 +1,117 @@
+﻿/*
+* FILE          : styles.css
+* PROJECT       : WDD Assignment #5
+* PROGRAMMERs   : Dave Yeardley
+* FIRST VERSION : 2013-12-1
+* DESCRIPTION   : This project is the implementation of basic text editor, that uses ASP.NET and AJAX
+                  technologies. It has the ability to create, update, and read files. This file contains 
+                  the styles used on the elements
+*/
+* {
+    margin:0px;
+}
+
+/*iOS7 rounds input which is ugly. So let's undo the border radius and the ugly gradient*/ 
+input {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+/*
+    Disables all pan/zoom and scroll behaviours behaviors
+.disablePanZoom {
+  -ms-touch-action: none;  
+  -webkit-touch-callout: none;
+  -moz-touch-action:none; 
+}
+ */
+.TextPad {
+    width: 98%;
+    height: 1000px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px 0px #333;
+   /* border:medium groove white; */
+}
+.ButtonContainer {
+    float:left;
+    clear:both;
+    margin:10px;
+    height:100%;
+    width:100%;
+}
+.ListBox {
+    float: left;
+    clear: both;
+    margin:10px;
+    box-shadow: 5px 5px 10px 0px #333;
+    width: 200px;
+}
+.NewFileName {
+    clear:both;
+    border:medium groove white;
+    width: 200px;
+    top: 146px;
+    left: 505px;
+    
+}
+
+
+#Container {
+    position:relative;
+    text-align:center;
+    background:#008ace;
+    height: 100%;
+    width:  100%;
+    color:white;
+}
+
+form {
+    text-align: center;
+    /*background-color: orange ; */
+    background-image:url("metal.jpg");
+    height:100%;
+    width: 100%; 
+   /* margin-top: 5%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style:solid;
+    border-width:medium;
+    border-color: white;
+    box-shadow: 5px 5px 10px 0px #333;
+    position:relative;
+}
+
+.button
+{ 
+    /*transition back*/
+    transition: 0.5s;
+    -webkit-transition: 0.5s; /* for webkit */
+    /*background-color: blue;
+    color: orange;*/
+    color:white;
+    background-image:url("metal.jpg");
+    float:left;
+    /*clear:both; */
+    border-color:ghostwhite;
+    font-size: 20px;
+    width: 19.66%;
+    height:50px;
+    margin:0px;
+    box-shadow: 5px 5px 10px 0px #333;
+    
+}
+/*cool hover colour changes with transition*/
+.button:hover {
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    /*background-color: white;*/
+    border-color:#008ace;
+    color: #008ace; 
+}
+
+h3 {
+    float: left;
+    margin-left:5px;
+    margin-bottom:0px;
+}
+  

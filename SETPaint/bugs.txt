@@ -1,0 +1,14 @@
+Assignment	: WaMP Assignment #3
+Name		: Dave Yeardley
+Date		: October 6, 2013
+
+BUGS/ISSUES
+===========
+- I did not get to implement saving and opening using the List of shapes. It still saves
+and opens as an image
+- File IO needs to be reworked.
+- I considered the tradeoff as an invaluable learning experience.
+
+MISSED REQUIREMENTS
+==================
+- none
